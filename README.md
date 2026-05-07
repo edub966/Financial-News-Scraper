@@ -1,7 +1,5 @@
 # Financial News Scraper & Data Pipeline
 
-**Author:** Erik Woods  
-**Track:** Data Science — Project #3 of 25  
 **Stack:** Python · feedparser · SQLite · collections
 
 ---
