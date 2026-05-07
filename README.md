@@ -157,9 +157,9 @@ filings: 8 articles
 
 This pipeline is intentionally designed as infrastructure for future projects:
 
-- **Project #5 — Sentiment Tracker:** Plug a HuggingFace or VADER sentiment model into `analyze.py` to score each headline. The `TODO: sentiment scoring` hook is already in the codebase.
-- **Project #7 — Stock Anomaly Detection:** Use collected headlines as feature input alongside price data. Correlate keyword spikes in the `macro` and `markets` groups with price movement anomalies.
-- **Project #8 — End-to-End ML Pipeline:** Wrap this scraper as the ingestion layer of a full training pipeline with MLflow experiment tracking.
+- **Sentiment Tracker:** Plug a HuggingFace or VADER sentiment model into `analyze.py` to score each headline. The `TODO: sentiment scoring` hook is already in the codebase.
+- **Stock Anomaly Detection:** Use collected headlines as feature input alongside price data. Correlate keyword spikes in the `macro` and `markets` groups with price movement anomalies.
+- **End-to-End ML Pipeline:** Wrap this scraper as the ingestion layer of a full training pipeline with MLflow experiment tracking.
 
 The `published` timestamp stored per article is specifically preserved for this reason — it enables time-aligned correlation between news events and market data.
 
