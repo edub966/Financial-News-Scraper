@@ -8,7 +8,7 @@
 
 A lightweight, automated financial news pipeline that scrapes headlines from eight live RSS feeds across equities, crypto, commodities, forex, earnings, and SEC filings — and stores them in a structured SQLite database for downstream analysis and ML model training.
 
-This is not a one-off script. It's a continuously running data collection system designed to feed future projects in sentiment analysis (#5), anomaly detection (#7), and end-to-end ML pipelines (#8).
+This is not a one-off script. It's a continuously running data collection system designed to feed future projects in sentiment analysis, anomaly detection, and end-to-end ML pipelines.
 
 ---
 
