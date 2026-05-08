@@ -30,6 +30,7 @@ def scrape_feeds():
                 total_saved += 1
 
     print(f"Done. Saved {total_saved} articles.")
+    return total_saved
 
 
 if __name__ == "__main__":
